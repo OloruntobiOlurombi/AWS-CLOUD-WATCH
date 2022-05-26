@@ -22,3 +22,17 @@
 > On the left-hand menu, under ***Events***, select ***Rules***.
 
 ![image](https://user-images.githubusercontent.com/40290711/170538008-f14e650f-9589-4292-991d-ea81ca7ff4ce.png)
+
+> Click on the Create rule button.
+> For Service Name, select EC2.
+> For the Event Type, select EC2 Instance State-change Notification.
+> Select the Specific state(s) radio button. Select running from the drop-down box.
+
+- Note: This configures the rule to trigger whenever an Amazon EC2 instance changes to the running state, which happens when an instance is launched or started.
+
+On the right-hand side of the screen, in the Target section, add a target by clicking on Add target.
+In the drop-down, change Lambda function to SNS topic.
+
+
+![image](https://user-images.githubusercontent.com/40290711/170548149-b9d62dde-9618-4ef0-a89b-f21967bc51c7.png)
+
