@@ -49,4 +49,24 @@ In the drop-down, change Lambda function to SNS topic.
 
 ![image](https://user-images.githubusercontent.com/40290711/170825768-f1314842-b36d-4ebb-89c0-69bda5d72707.png)
 
+### STEP 2: Test CloudWatch Rule
+> Navigate to the EC2 console page, by clicking on Services in the upper left-hand menu. 
+> Type EC2 in the text box and click on EC2 found in the search results.
+
+![image](https://user-images.githubusercontent.com/40290711/170826255-b36ab458-837d-4d8f-8ca2-cf37c246b7bf.png)
+
+> On the EC2 Dashboard page, click on Instances in the left-hand navigation.
+> Click Launch Instance.
+
+![image](https://user-images.githubusercontent.com/40290711/170826559-40434064-ecfe-4b5b-9c05-ef86ad5271d2.png)
+
+> Select the Amazon Linux 2 AMI (HVM), SSD Volume Type Amazon Machine Image (AMI). Important: You are free to choose a different AMI, but to avoid excessive charges, pick one that says, Free Tier Eligible.
+> For the Instance Type, select the free-tier instance type of t2.micro.
+> Click Review and Launch.
+> Click Launch.
+> Generate and download a new key pair and then launch the instance.
+
+![image](https://user-images.githubusercontent.com/40290711/170826808-1ebe650d-9916-4ff5-80c2-fecadb05a51e.png)
+![image](https://user-images.githubusercontent.com/40290711/170826834-8aae9ad4-8d1c-464e-9479-2dfb304cb0e2.png)
+
 
