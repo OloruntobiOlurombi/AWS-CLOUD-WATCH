@@ -40,6 +40,7 @@ In the drop-down, change Lambda function to SNS topic.
 ![image](https://user-images.githubusercontent.com/40290711/170803973-f2d6c77b-2f38-4d79-b5d3-ed5e29679dc8.png)
 
 > Scroll down and click the Configure details.
+
 > Enter a name in the Name field. Ensure the state is Enabled. Click Create rule.
 
 ![image](https://user-images.githubusercontent.com/40290711/170804115-a88f5d2e-989e-4d6d-9d1e-898b304b920e.png)
