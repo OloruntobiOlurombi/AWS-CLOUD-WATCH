@@ -45,3 +45,8 @@ In the drop-down, change Lambda function to SNS topic.
 
 ![image](https://user-images.githubusercontent.com/40290711/170804115-a88f5d2e-989e-4d6d-9d1e-898b304b920e.png)
 
+> Confirm that the rule is created
+
+![image](https://user-images.githubusercontent.com/40290711/170825768-f1314842-b36d-4ebb-89c0-69bda5d72707.png)
+
+
