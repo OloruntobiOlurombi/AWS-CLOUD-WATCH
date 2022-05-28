@@ -30,9 +30,17 @@
 
 - Note: This configures the rule to trigger whenever an Amazon EC2 instance changes to the running state, which happens when an instance is launched or started.
 
-On the right-hand side of the screen, in the Target section, add a target by clicking on Add target.
+> On the right-hand side of the screen, in the Target section, add a target by clicking on Add target.
 In the drop-down, change Lambda function to SNS topic.
 
+> For the Topic, select the topic you created in the SNS hands-on exercise.
 
-![image](https://user-images.githubusercontent.com/40290711/170548149-b9d62dde-9618-4ef0-a89b-f21967bc51c7.png)
+- >Important: If the Topic doesn’t appear, the Access policy – optional section doesn’t have the correct permissions to allow other services to access the Topic.
+
+![image](https://user-images.githubusercontent.com/40290711/170803973-f2d6c77b-2f38-4d79-b5d3-ed5e29679dc8.png)
+
+> Scroll down and click the Configure details.
+> Enter a name in the Name field. Ensure the state is Enabled. Click Create rule.
+
+![image](https://user-images.githubusercontent.com/40290711/170804115-a88f5d2e-989e-4d6d-9d1e-898b304b920e.png)
 
