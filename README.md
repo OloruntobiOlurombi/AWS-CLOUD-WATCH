@@ -77,8 +77,24 @@ In the drop-down, change Lambda function to SNS topic.
 
 > Click on View Instances.
 
-> Once the Instance state changes to Running, check your email client for an email alert from the SNS Topic.
-
 ![image](https://user-images.githubusercontent.com/40290711/170826978-1707e838-82a4-4a43-8262-07a1f0b5436b.png)
 
+> Once the Instance state changes to Running, check your email client for an email alert from the SNS Topic.
 
+![image](https://user-images.githubusercontent.com/40290711/170827836-06033d37-3817-492c-82df-ba4fb719bf63.png)
+
+
+### STEP 3: Cleanup & Disable EC2 Instance and Cloud Watch Rule
+> To avoid recurring charges for leaving an instance running, let’s disable the EC2 instance.
+
+> From the EC2 Dashboard, select the instance just created, click Actions, then Instance State, and then select Terminate.
+
+> To avoid recurring charges for leaving the Cloud Watch rule running, let’s disable it.
+
+> From the CloudWatch Dashboard, select Rules from under the Events section.
+
+> Select the Rule you just created, by clicking the radio button next to the Rule.
+
+> Click on the Actions button, and select Delete.
+
+# The End
