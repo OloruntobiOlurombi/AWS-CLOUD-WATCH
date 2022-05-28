@@ -61,12 +61,24 @@ In the drop-down, change Lambda function to SNS topic.
 ![image](https://user-images.githubusercontent.com/40290711/170826559-40434064-ecfe-4b5b-9c05-ef86ad5271d2.png)
 
 > Select the Amazon Linux 2 AMI (HVM), SSD Volume Type Amazon Machine Image (AMI). Important: You are free to choose a different AMI, but to avoid excessive charges, pick one that says, Free Tier Eligible.
+
 > For the Instance Type, select the free-tier instance type of t2.micro.
+
 > Click Review and Launch.
+
 > Click Launch.
+
 > Generate and download a new key pair and then launch the instance.
+
+> Click Launch Instances.
 
 ![image](https://user-images.githubusercontent.com/40290711/170826808-1ebe650d-9916-4ff5-80c2-fecadb05a51e.png)
 ![image](https://user-images.githubusercontent.com/40290711/170826834-8aae9ad4-8d1c-464e-9479-2dfb304cb0e2.png)
+
+> Click on View Instances.
+
+> Once the Instance state changes to Running, check your email client for an email alert from the SNS Topic.
+
+![image](https://user-images.githubusercontent.com/40290711/170826978-1707e838-82a4-4a43-8262-07a1f0b5436b.png)
 
 
